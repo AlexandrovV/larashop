@@ -1,0 +1,54 @@
+.cart {
+    .cart-item {
+        padding-top: 20px;
+
+        .cart-item-image-container {
+        height: 90px;
+
+            .cart-item-image {
+                display: block;
+                height: 100%;
+                margin: 0 auto;
+            }
+        }
+        .cart-item-info {
+            a {
+                font-size: 18px;
+            }
+        }
+
+        .cart-item-quantity {
+            margin-top: 20px;
+        }
+
+        .cart-item-price {
+            text-align: center;
+            font-family: "MuseoSans","Helvetica Neue",Arial,Helvetica,sans-serif;
+            color: #6d4c41;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 21px;
+            margin-top: 35px;
+        }
+    }
+    .cart-total-wrapper {
+        min-height: 80px;
+        background-color: #bcaaa4;
+        margin-top: 35px;
+
+        .cart-total {
+            text-align: center;
+            font-family: "MuseoSans","Helvetica Neue",Arial,Helvetica,sans-serif;
+            color: #5d4037;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 21px;
+            margin-top: 28px;
+        }
+    }
+    
+
+    .cart-no-items {
+        text-align: center;
+    }
+}

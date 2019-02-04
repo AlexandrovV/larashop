@@ -1,0 +1,345 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.breadcrumb {
+  color: #636b6f;
+}
+
+.breadcrumb:hover {
+  color: #7d9fb1;
+  transition: 0.3s;
+}
+
+.breadcrumb::before {
+  color: #636b6f;
+}
+
+.breadcrumb:last-child {
+  color: #6d4c41;
+  font-weight: bold;
+}
+
+.cart .cart-item {
+  padding-top: 20px;
+}
+
+.cart .cart-item .cart-item-image-container {
+  height: 90px;
+}
+
+.cart .cart-item .cart-item-image-container .cart-item-image {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.cart .cart-item .cart-item-info a {
+  font-size: 18px;
+}
+
+.cart .cart-item .cart-item-quantity {
+  margin-top: 20px;
+}
+
+.cart .cart-item .cart-item-price {
+  text-align: center;
+  font-family: "MuseoSans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #6d4c41;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+  margin-top: 35px;
+}
+
+.cart .cart-total-wrapper {
+  min-height: 80px;
+  background-color: #bcaaa4;
+  margin-top: 35px;
+}
+
+.cart .cart-total-wrapper .cart-total {
+  text-align: center;
+  font-family: "MuseoSans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #5d4037;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+  margin-top: 28px;
+}
+
+.cart .cart-no-items {
+  text-align: center;
+}
+
+.h-item {
+  box-shadow: 0.1px 0.1px 2px 2px rgba(0, 0, 0, 0.1);
+  height: 450px;
+  margin-bottom: 1rem;
+  transition: 0.4s;
+}
+
+.h-item:hover {
+  box-shadow: 0.1px 0.1px 2px 3px rgba(109, 76, 65, 0.5);
+}
+
+.h-item .h-item-image-wrapper {
+  height: 260px;
+}
+
+.h-item .h-item-image-wrapper .h-item-image-container {
+  height: 200px;
+  padding-top: 10px;
+}
+
+.h-item .h-item-image-wrapper .h-item-image-container .h-item-image {
+  display: block;
+  max-width: 200px;
+  max-height: 190px;
+  margin: auto;
+}
+
+.h-item .h-item-image-wrapper .h-item-price-container .h-item-price {
+  text-align: center;
+  height: 20px;
+  margin: 20px 0;
+  font-family: "MuseoSans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #6d4c41;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.h-item .h-item-meta-wrapper {
+  height: 190px;
+}
+
+.h-item .h-item-meta-wrapper .h-item-name {
+  height: 120px;
+  text-align: center;
+  font: 400 16px/24px "PT Sans", sans-serif;
+  overflow: hidden;
+  padding: 0 5px;
+}
+
+.h-item .h-item-meta-wrapper .h-item-action {
+  height: 70px;
+  padding: 15px 0 20px 0;
+}
+
+.h-item .h-item-meta-wrapper .h-item-action .h-item-button-wrapper {
+  display: block;
+  max-width: 130px;
+  margin: auto;
+}
+
+.l-item {
+  box-shadow: 0.1px 0.1px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  transition: 0.4s;
+  padding: 1rem;
+  height: 220px;
+}
+
+.l-item:hover {
+  box-shadow: 0.1px 0.1px 2px 3px rgba(109, 76, 65, 0.5);
+}
+
+.l-item .l-item-image-container {
+  width: 200px;
+  height: 200px;
+}
+
+.l-item .l-item-image-container .l-item-image {
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin: 0 auto;
+}
+
+.l-item .l-item-actions .l-item-price-container .l-item-price {
+  text-align: center;
+  height: 20px;
+  margin: 20px 0;
+  font-family: "MuseoSans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #6d4c41;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.l-item .l-item-actions .l-item-button-wrapper {
+  display: block;
+  height: 40px;
+  max-width: 133px;
+  margin: auto;
+}
+
+.l-item .l-item-actions .l-item-button-wrapper .l-item-button {
+  font-weight: 700;
+  height: 100%;
+  padding-top: 3px;
+}
+
+.category-name {
+  font-family: "MuseoSans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.brand-logo {
+  font-weight: 600;
+}
+
+.header {
+  font-family: "MuseoSans", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.catalogue {
+  text-transform: none;
+}
+
+.s-item .s-item-image-container {
+  box-shadow: 0.1px 0.1px 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.s-item .s-item-image-container .s-item-image {
+  max-width: 100%;
+  max-height: 420px;
+  display: block;
+  margin: 0 auto;
+}
+
+.s-item .s-item-info-container {
+  padding: 30px;
+}
+
+.s-item .s-item-info-container .s-item-price {
+  height: 20px;
+  margin: 20px 0;
+  font-family: "MuseoSans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #6d4c41;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.s-item .s-item-info-container .s-item-info {
+  font-size: 20px;
+}
+
+.s-item .s-item-info-container .s-item-button {
+  font-size: 16px;
+  font-weight: 700;
+  height: 100%;
+  padding-top: 3px;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a.theme-links {
+  color: #8d6e63 !important;
+}
+
+a.theme-links:hover {
+  color: #4e342e !important;
+  transition: 0.3s;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+hr {
+  border-color: #795548;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.top-mar {
+  margin-top: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+

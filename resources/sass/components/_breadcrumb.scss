@@ -1,0 +1,15 @@
+.breadcrumb {
+    color: #636b6f;
+
+    &:hover {
+        color: #7d9fb1;
+        transition: 0.3s;
+    }
+    &::before {
+        color: #636b6f;
+    }
+    &:last-child {
+        color: #6d4c41;
+        font-weight: bold;
+    }
+}
